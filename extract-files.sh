@@ -18,7 +18,10 @@
 set -e
 
 export DEVICE_COMMON=sdm660-common
+export VENDOR=xiaomi
 export DEVICE_SPECIFIED_COMMON_DEVICE="jasmine_sprout wayne"
+export DEVICE_BRINGUP_YEAR=2018
+export DEVICE_SPECIFIED_COMMON=wayne-common
 
 ./../../$VENDOR/$DEVICE_COMMON/extract-files.sh "$@"
 
